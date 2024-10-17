@@ -1,6 +1,11 @@
+html {
+  height: 100%;
+}
+
 body {
   font-family: 'Roboto';
   background-color: #1f2937; 
+  height: 100%;
 }
 
 ul {
@@ -18,14 +23,16 @@ a {
 
 .main {
   display: flex;
+  height: 100%;
   flex-direction: column;
-  padding: 0 15%;
+  /* padding: 0 15%; */
 }
 
 .header {
   display: flex;
-  flex: 1 1 auto;
+  flex-grow: 0;
   align-items: center;
+  padding: 20px 15% 0 15%;
 }
 
 .header .right {
@@ -73,6 +80,7 @@ button.sign-up {
 .first-block {
   display: flex;
   gap: 50px;
+  padding: 0 15%;
 }
 
 .first-block .left {
@@ -98,4 +106,54 @@ button.sign-up {
   max-height: auto;
   box-sizing: border-box;
   padding: 50px 0;
+}
+
+.second-block {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  padding-bottom: 80px;
+  padding: 0 15% 80px 15%;
+}
+
+.gallery-header-text {
+  display: flex;
+  color: #1f2937;
+  font-size: 36px;
+  font-weight: 900;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;;
+}
+
+.gallery-item img {
+  max-width: 150px;
+  max-height: 150px;
+  border-radius: 8px;
+}
+
+.gallery-item p {
+  max-width: 150px;;
+}
+
+.third-block {
+  display: flex;
+  flex-grow: 1;
+}
+
+.fourth-block {
+  display: flex;
+  flex-grow: 1;
+}
+
+.footer {
+  display: flex;
+  flex-grow: 0;
 }

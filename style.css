@@ -1,11 +1,13 @@
 html {
-  height: 100%;
+  /* what the fuck does this even do */
+  overflow-y: scroll;
 }
 
 body {
   font-family: 'Roboto';
   background-color: #1f2937; 
-  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
 }
 
 ul {
@@ -167,6 +169,7 @@ button.sign-up {
 }
 
 .quote-author {
+  margin-top: 20px;
   display: flex;
   justify-content: right;
   font-size: 20px;
@@ -225,4 +228,7 @@ button.sign-up {
 .footer {
   display: flex;
   flex-grow: 0;
+  color:#f9faf8;
+  justify-content: center;
+  padding: 30px;
 }

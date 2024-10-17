@@ -21,6 +21,11 @@ a {
   font-size: 18px;
 }
 
+p {
+  padding: 0;
+  margin: 0;
+}
+
 .main {
   display: flex;
   height: 100%;
@@ -65,6 +70,7 @@ a {
 .hero-secondary-text {
   color: #e5e7eb;
   font-size: 18px;
+  font-weight: 200;
   margin: 0;
 }
 
@@ -74,7 +80,8 @@ button.sign-up {
   border-radius: 8px;
   border-style: none;
   padding: 8px 24px;
-  max-width: 100px;
+  width: 110px;
+  height: 31.5px;
   font-weight: bold;
 }
 
@@ -159,10 +166,6 @@ button.sign-up {
   font-style: italic;
 }
 
-.quote-text p {
-  margin: 0;
-}
-
 .quote-author {
   display: flex;
   justify-content: right;
@@ -171,8 +174,52 @@ button.sign-up {
 }
 
 .fourth-block {
+  background-color:#f9faf8;
   display: flex;
   flex-grow: 1;
+  justify-content: center;
+  padding: 80px 25%;
+}
+
+.cta-blob {
+  display: flex;
+  flex-grow: 1;
+  background-color: #3882f6;
+  padding: 35px 80px;
+  color: white;
+  border-radius: 8px;
+}
+
+.cta-blob .left {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  align-items: left;
+  gap: 0;
+}
+
+.left .cta-header {
+  font-size: 22px;
+  font-weight: bold; 
+}
+
+.left .cta-description {
+  font-size: 14px;
+  font-weight: 200;
+}
+
+.cta-blob .right {
+  display: flex;
+  flex-grow: 1;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.cta-blob .sign-up {
+  border: solid #f9faf8;
+  border-width: 2px;
+  padding: 0;
+  font-weight: 100;
 }
 
 .footer {

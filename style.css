@@ -32,7 +32,7 @@ a {
   display: flex;
   flex-grow: 0;
   align-items: center;
-  padding: 20px 15% 0 15%;
+  padding: 20px 20% 0 20%;
 }
 
 .header .right {
@@ -75,12 +75,13 @@ button.sign-up {
   border-style: none;
   padding: 8px 24px;
   max-width: 100px;
+  font-weight: bold;
 }
 
 .first-block {
   display: flex;
   gap: 50px;
-  padding: 0 15%;
+  padding: 0 20%;
 }
 
 .first-block .left {
@@ -113,8 +114,7 @@ button.sign-up {
   display: flex;
   flex-direction: column;
   flex-grow: 1;
-  padding-bottom: 80px;
-  padding: 0 15% 80px 15%;
+  padding: 0 20% 80px 20%;
 }
 
 .gallery-header-text {
@@ -144,8 +144,30 @@ button.sign-up {
 }
 
 .third-block {
+  background-color: #e5e7eb;
   display: flex;
+  flex-direction: column;
   flex-grow: 1;
+  padding: 80px 25% 70px 25%;
+}
+
+.quote-text {
+  display: flex;
+  color: #1f2937;
+  font-size: 30px;
+  font-weight: 300;
+  font-style: italic;
+}
+
+.quote-text p {
+  margin: 0;
+}
+
+.quote-author {
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .fourth-block {

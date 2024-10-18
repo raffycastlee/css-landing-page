@@ -62,10 +62,20 @@ p {
 
 .header .left {
   display: flex;
+  flex-direction: row;
   flex-grow: 0;
   color: #f9faf8;
   font-size: 24px;
   font-weight: bold;
+  gap: 6px;
+}
+
+.left .erth {
+  padding-top: 4.5px;
+}
+
+.left .dot-separator {
+  padding-top: 3px;
 }
 
 .hero-main-text {
@@ -183,14 +193,21 @@ button.sign-up {
 .quote-author {
   margin-top: 20px;
   display: flex;
-  justify-content: right;
+  flex-direction: column;
+  text-align: right;
   font-size: 20px;
   font-weight: bold;
 }
 
+.quote-author .text {
+  font-size: 16px;
+  font-weight: 200;
+  font-style: italic;
+}
+
 .quote-author a {
   color: black;
-  font-weight: bold;
+  font-size: 16px;
   font-style: italic;
   text-decoration: underline;
 }

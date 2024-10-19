@@ -14,10 +14,10 @@ me when i touch css for the first time. deployed [here](https://raffycastlee.git
 
 ## _screens_
 ![header and block-1](img/header-and-block-1.png)
-<p align="center">_Header and Block-1_</p>
+<p align="center"><em>Header and Block-1</em></p>
 
 ![block-2 and block-3](img/block-2-and-3.png)
-<p align="center">_Block-2 and Block-3_</p>
+<p align="center"><em>Block-2 and Block-3</em></p>
 
 ![block-4 and footer](img/block-4-and-footer.png)
-<p align="center">_Block-4 and Footer_</p>
+<p align="center"><em>>Block-4 and Footer</em></p>
